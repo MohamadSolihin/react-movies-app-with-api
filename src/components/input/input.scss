@@ -1,0 +1,15 @@
+@use '../../scss/variabel' as *;
+
+input {
+  border: 0;
+  background-color: $black;
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: $border-radius;
+  color: $txt-color;
+  font-family: $font-family;
+  -webkit-border-radius: $border-radius;
+  -moz-border-radius: $border-radius;
+  -ms-border-radius: $border-radius;
+  -o-border-radius: $border-radius;
+}
